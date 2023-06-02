@@ -1,0 +1,202 @@
+
+.main-table{font-family:Arial; font-weight:normal; Font-size:13px; color:#333; line-height:24px; text-align:justify;}
+.main-heading{font-weight:bold; Font-size:18px; color:#333; line-height:36px; border-bottom:1px #ccc dashed; text-transform:uppercase;}
+.sub-heading{font-weight:bold; Font-size:15px; color:#333; line-height:30px; text-transform:uppercase;}
+.team-title{font-weight:bold; Font-size:14px; color:#333; line-height:30px;}
+.contact-us{ padding-left:20px; line-height:24px;}
+/*responsive-nav*/
+.navbar-default{border:0 !important;background-color: #01406b !important;}
+.navbar-nav>li {display: table-cell;float: initial !important;vertical-align: middle;/* border-right: 1px solid #eaeaea; */}
+.navbar-default .navbar-nav>li>a{font-size: 13px;color: #fff;font-weight: 600;}
+@media(max-width:767px){.navbar, .navbar-nav{background:#000;} }
+blockquote{text-align: left;border-left:none; padding:0;}
+.container{width:1000px;}
+#widgetsControl, #widgetsControl_C{/* height:inherit !important; */}
+img{max-width:100%;}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{padding-right: 7px; padding-left: 7px;}
+.row {margin-right: -7px;  margin-left: -7px;}
+#HomepagecontentControl.col-md-12 table{/*width:99%;*/}
+#HomepagecontentControl_C table tr td { /*border: none;*/}
+#HomepagecontentControl_C .container-middle{width:100%;}
+#HomepagecontentControl_C .sep-dv{width:100% !important;}
+#LoginControl_C input, #WhatsNewControl_C input{color:#000 !important;}
+.navbar {
+    position: relative;
+    min-height: 0px !important;
+    margin-bottom: 0px !important;
+    border: 1px solid transparent;
+}
+.container-fluid>.navbar-collapse{padding:0;}
+.navbar-nav>li>a {
+    padding-top:2px !important;
+    padding-bottom: 2px !important;}
+
+.container-fluid{padding-left:2px; padding-right:2px;}
+
+.main-table h3{font-size: 15px;
+    font-weight: 600;}
+.navbar-nav {
+    display: table;
+    width: 100%;
+    text-align: center;
+    margin-left: 0  !important;
+    margin-right: 0 !important;    margin-top: -2px;}
+	
+#MenuControl_C .container-fluid{/*width: 1140px;*/}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{    color: #fff !important;
+    background-color: #333 !important;}
+center #form1{overflow:hidden;}	
+#MenuControl_C .dropdown-menu{padding:0 !important; animation: fadeInUp 400ms;}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+   color: #fff !important;
+   text-decoration: none;
+   background-color: #333 !important;}
+
+.dropdown-menu>li>a:focus:after, .dropdown-menu>li>a:hover:after {
+   border-left-color: #333 !important;
+}
+	
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+   color: #fff !important;
+   background-color: #000 !important;}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+   background-color: #333 !important;
+   border-color: #000;
+   color: #fff !important;}
+
+
+#MenuControl_C .navbar-default,
+#MenuControl_C .container-fluid,
+#MenuControl_C .navbar-nav
+			{height:100%; }
+.nav>li>a {padding: 6px 1px;}
+#MenuControl_C #navbar-collapse-1{height:100% !important;}
+
+table{/*margin-top:0 !important;*/}
+
+@media (max-width:1140px){
+#MenuControl_C .container-fluid{width: 100%;}
+}
+
+@media (max-width: 998px){
+#widgetsControl_C, #widgetsControl, #MenuControl, #MenuControl_C{height:initial !important}
+#HeaderControl, #HeaderControl_C{height: initial !important;}
+#WhatsNewControl{margin-top: 20px;}
+.container{width:inherit;}
+.container-middle{width:100% !important;}
+}
+
+@media (max-width: 998px){
+#HeaderControl_C table{width:100% !important; height: initial !important;}
+#widgetsControl_C table, #WidgetControl1_C table, .cont-serv, .main-container{width:100% !important; height: initial !important;}}
+
+@media(max-width:767px){
+ .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top{margin-right: 0px !important; margin-left:  0px !important;}
+.navbar, .navbar-nav{/*background:#333;*/}
+.navbar-default .navbar-toggle{z-index: 155555555555;float: initial;margin: 9px 0;border: 1px solid #000;}
+.navbar-default .navbar-nav>li>a{color: #fff;border-bottom: 1px solid #000;}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #fff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+background-color: transparent;
+}
+#MenuControl_C #navbar-collapse-1{    border: 0; padding: 0;margin: 0}
+.navbar-nav>li{    border-right: 0;
+padding: 3px 20px;}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff; padding: 2px 15px 2px 25px;
+}
+#MenuControl_C .navbar-default, #MenuControl_C .container-fluid, #MenuControl_C .navbar-nav{margin-bottom:0;}
+.navbar-header{text-align:center;}
+.navbar-nav>li{display: block; text-align:left;}
+.navbar-nav>li{display: block; text-align:left;}
+#HeaderControl, #HeaderControl_C{height: initial !important;}	
+}
+
+@media(max-width:767px){
+#WhatsNewControl_C_ctl00_Bulletin_Scroll{padding: 5px 15px;}
+#LoginControl {margin: 0 15px;}
+}
+
+@media(max-width:568px){
+.serv-bx-top {
+    float: none;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+    padding: 15px 0px;
+    margin-bottom: 19px;
+    position: static;}
+.ser-cnt-top h3 { 
+    text-align: left;}
+
+#HomepagecontentControl.col-md-12 table {width: 99%; text-align: justify;}
+	}
+
+@media(max-width:375px){
+}
+.table-responsive {
+    min-height: .01%;
+    overflow: hidden !important;
+}
+.ft-cont i{height:inherit;}
+#HomepagecontentControl_C p { /*text-align: inherit !important;*/}
+@media(max-width:767px){
+.ser-box, .serv-bx, .td-banner, .inner-container, .header-logo, .main, .main-contaner, .ser-bx-hm-inner, .three-bx, .hm-service, .rht-cont, .footer table, footer table, .cont-home, .serv-box{width:98%; text-align:center; margin-left:0px; margin:0 auto;}
+.col-three, .hm-cnt-rht, .hm-cnt-lft, .ft-cont, .bann-lft, .bann-rht, .ser-bx, .team-lft, .team-rht, footer .footer-brand, .footer-nav, .footer-social, .footer-ns, .container-middle, .home-container, .tp-colthree-inner, .service-box.ser-lft, .service-box.ser-rht, .team-col, .sep-dv, .cont-main, .box_left, .box_right{width:98%; margin:0 auto; padding:2px 6px;}
+#HeaderControl_C table, #HeaderControl_C .head-top, #widgetsControl table, .header, .service-box {width:100% !important; height: initial !important;}
+#widgetsControl div, #widgetsControl table{ /*width: 100% !important;*/}
+.ft-cont i{height:inherit;}
+.ser-cnt p{text-align:center !important;}
+.fl-head h2, .header h1, .title-name{ font-size: 18px;  margin-left: 5px;}
+.fl-head h4, .header h2, .title-name-sub{ font-size: 15px;  margin-left: 5px;}
+.fr-head{float:inherit;}
+img{ max-width:100%; }
+.head-top .mailus, .head-top .callus{width:100%; text-align:center; float:inherit;}
+.hm-serv-inner{width:96%; margin:10px auto; float:inherit;}
+.about-hm-inner-lft, .about-hm-inner-rht, .middle-cont, .aside, .box-left, .cont-mid{float: inherit; width: 98%;}
+#HeaderControl_C_ctl00_imageheader, .fr-head{display:none;}
+#HeaderControl_C_ctl00_tr_HeaderBackImage{ position: relative !important;}
+}
+@media(max-width:998px){
+#widgetsControl table{width: 100% !important;}
+#HeaderControl_C .container-middle { width: 100%;}
+#HeaderControl_C_ctl00_imageheader{display:none;}
+#HeaderControl_C_ctl00_tr_HeaderBackImage{position: relative !important;}
+}
+
+@media(max-width:767px){
+.ser-box, .serv-bx, .td-banner, .inner-container, .header-logo, .main, .main-contaner, .ser-bx-hm-inner, .three-bx, .hm-service, .rht-cont, .footer table, footer table, .cont-home, .serv-box, .aboutvijaygu, .warp, .content, .aboutca, .aboutca-cntr, .service-boxca, .srv-boxca, .body-cntrca, .srv-boxca, .body-cntrca, .srv-boxca1, .service-boxca1, .home-cont, .home-aside, .image-st, .serv-bx-ser, .container-hed, .cont-ft, .links-use{width:98% !important; /*text-align:center;*/ margin-left:0px; margin:0 auto !important; height:inherit !important;}
+.fl-head img, .ser-img-top{margin-left:0px !important;}
+.col-three, .hm-cnt-rht, .hm-cnt-lft, .ft-cont, .bann-lft, .bann-rht, .ser-bx, .team-lft, .team-rht, footer .footer-brand, .footer-nav, .footer-social, .footer-ns, .container-middle, .home-container, .tp-colthree-inner, .service-box.ser-lft, .service-box.ser-rht, .team-col, .sep-dv, .cont-main, .box_left, .box_right, .box-main, .ft-col, .hm-three-cl-inner, .hm-three-cl-inner.two-col-bx, .boxs, .mainservices a, .maindivkailsh, .caaniknaik-headermain, .rth-serv, .about-cont{width:98% !important; margin:0 auto; padding:2px 6px;}
+#HeaderControl_C table, #HeaderControl_C .head-top, #widgetsControl table, .header, .flash, .contants1{width:100% !important; height: initial !important;}
+/*#widgetsControl div,*/ #widgetsControl table, .ser-bx-img, .ser-bx-rht, .menuleft, .Contentright, .maindiv, .main_body, .wedget_main, .menuguptamr, .content, .mange, .maindivmrgupta, .ourmrservices, .caskkindia-headermain, .caskkindia-widget, .caskkindia-widget, .caskkindia-widget ul li{ width: 100% !important;}
+.ft-cont i{height:inherit;}
+.ibspanel{ width:inherit; width:inherit;}
+.ser-cnt p{text-align:center !important;}
+.fl-head h2, .header h1, .title-name, .textvijay a{ font-size: 18px !important;  margin-left: 5px; float:inherit; padding:inherit;}
+.fl-head h4, .header h2, .title-name-sub, .textvijay1{ font-size: 15px !important;  margin-left: 5px; padding:inherit;}
+.fr-head, .textvijay{float:inherit;}
+img{ max-width:100%; }
+.head-top .mailus, .head-top .callus{width:100%; text-align:center; float:inherit;}
+.hm-serv-inner{width:50%; margin:10px auto; float:inherit;}
+.about-hm-inner-lft, .about-hm-inner-rht, .middle-cont, .aside, .box-left, .cont-mid, .left-panel, .left-panel-right, .right-panel, .service-boxca, .aboutca-cntr, .srvca, .commeted-kc, .aboutca, .image-kc, .body-cntrca, .srv-boxca, .body-cntrca, .srv-boxca, .aboutca-cntr, .aboutca, .banner-box .col-md-3, footer .col-md-3{float: inherit; width: 98% !important; margin:10px auto;}
+#HeaderControl_C_ctl00_imageheader, .fr-head, .text23{display:none;}
+#HeaderControl_C_ctl00_tr_HeaderBackImage{ position: relative !important;}
+.content-head{float:inherit;}
+}
+@media(max-width:998px){
+#widgetsControl table, #HeaderControl_C table, .content-main, .contact-container, .contact-right, .contact-left, .main-container, .content_container, .main-header, .banner-box, .hm, .fl-head, .container, .cont-ab, .container-inside, .cont-home{width: 100% !important; margin-top: inherit;}
+.headervijay, .aboutvijaygu, .aboutvijaygu, .head-top-in, .cnt-lft, .bx-upper .col-three, .maindiv, .box-s, .cont-box, .head-top-in, #amazon_scroller2, .box-s, .hm-serv, .cont-lft, .cont-cen, .cont-rht, .content-main{width: 98% !important; margin:0 auto;}
+.hm-serv-bx-cnt{padding: 0 20px;}
+.container { padding: 0 7px;}
+#HeaderControl_C .container-middle, .main-cont, .mainservices, .mainservices, .headermaninkailsh, .maindivkalish, .fl-head, .serv-bx-top { width: 100%;    background-size: 100%;}
+#HeaderControl_C_ctl00_imageheader{display:none;}
+#HeaderControl_C_ctl00_tr_HeaderBackImage{position: relative !important;}
+#HomepagecontentControl_C table tr td { /* border: none; display: block; width: 100%;height: inherit;*/}
+.header, header, .home-body-iner, .home-body-left, .sep-dv-h{width:inherit;}
+}
